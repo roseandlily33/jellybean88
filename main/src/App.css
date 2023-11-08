@@ -56,3 +56,41 @@ nav{
  box-shadow: 2px 2px 2px var(--lightGrey);
  padding: 1em;
 }
+/* Main Content Setup */
+.main{
+    display: flex;
+    width: 100vw;
+    padding: 0.5em;
+}
+.mainContent{
+    height: 100vh;
+    width: 65vw;
+}
+.subContent{
+    margin-left: 2em;
+    height: 100vh;
+    width: 30vw;
+}
+/* Each Article */
+.article{
+  margin-top: 1em;
+  border: var(--border);
+  padding: 0.5em;
+  height: 20%;
+  box-shadow: 1px 1px 3px 0px var(--lightGrey);
+  border-radius: var(--borderRadius);
+}
+.singleArticle{
+    border: 2px solid orange;
+}
+
+.subContent{
+    margin-top: 1em;
+    padding: 0.2em;
+    border: 2px solid pink;
+}
+.eachSubreddit{
+    padding: 0.5em;
+    border: 2px solid green;
+    justify-content: space-between;
+}
