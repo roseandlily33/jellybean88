@@ -1,0 +1,25 @@
+:root{
+    --font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --white: #FFE;
+    --offWhite: #EEF3FF;
+    --lightBlue: #D7E9FF;
+    --lightGrey: #98A4B3;
+    --darkGrey: #3D4249;
+    --borderRadius: 10px;
+    --border: 1px solid var(--lightGrey);
+}
+h1, h2{
+    font-family: var(--font);
+    font-size: 4em;
+    font-weight: bold;
+}
+h3, h4{
+    font-family: var(--font);
+    font-size: 3em;
+
+}
+h5, h6{
+    font-family: var(--font);
+    font-size: 2em;
+
+}
