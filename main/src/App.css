@@ -1,25 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --white: #FFE;
     --offWhite: #EEF3FF;
     --lightBlue: #D7E9FF;
-    --lightGrey: #98A4B3;
+    --lightGrey: #b8c0ca;
     --darkGrey: #3D4249;
     --borderRadius: 10px;
     --border: 1px solid var(--lightGrey);
 }
 h1, h2{
     font-family: var(--font);
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: bold;
+    color: var(--darkGrey);
 }
 h3, h4{
     font-family: var(--font);
-    font-size: 3em;
+    font-size: 2.5em;
+    color: var(--darkGrey);
 
 }
 h5, h6{
     font-family: var(--font);
-    font-size: 2em;
-
+    font-size: 1.5em;
+    color: var(--lightGrey);
+}
+button{
+    padding: 1em;
+    border-radius: var(--borderRadius);
+    background-color: var(--lightBlue);
+    color: var(--darkGrey);
+    border: none;
+}
+button:hover{
+    background-color: var(--darkGrey);
+    color: var(--lightBlue);
+    border-radius: 2px;
+}
+input{
+    border: var(--border);
+    border-radius: var(--borderRadius);
+    padding: 1em;
+    margin-right: 1em;
+}
+nav{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ box-shadow: 2px 2px 2px var(--lightGrey);
+ padding: 1em;
 }
